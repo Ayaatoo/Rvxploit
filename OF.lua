@@ -92,7 +92,7 @@ do
         Default = 1,
     })
 
-    Dropdown2:SetValue("Method")
+    Dropdown2:SetValue("Over")
 
     Dropdown2:OnChanged(function(Value)
         print("Dropdown changed:", Value)
